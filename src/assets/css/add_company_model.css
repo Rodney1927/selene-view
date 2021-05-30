@@ -1,0 +1,72 @@
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal {
+    background-color: #fff;
+    box-shadow: 2px 2px 20px 1px;
+    overflow-x:hidden;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    width: 500px;
+    height: auto;
+}
+.input-last::-webkit-scrollbar{
+    display:none;
+}
+.input,.input-first{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+.input-first{
+    margin-top: 50px;
+}
+.input{
+    margin-top: 10px;
+}
+.input-last{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    min-height: 40px;
+    height: auto;
+    max-height: 250px;
+    overflow-y: auto;
+}
+.input-name{
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+    text-align: right;
+    margin-right: 10px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.button-left{
+    margin-right: 15px;
+}
+.button-right{
+    margin-left: 15px;
+}
+.msg{
+    height: 10px;
+    font-size: 7px;
+    color: crimson;
+    text-align: left;
+    margin-left: 163px;
+    margin-top: 0;
+}
